@@ -1,8 +1,11 @@
-<h1 id="one">
-    Hello World
-</h1>
+<h1 id="one">Hello World</h1>
+<button onclick="change()">Change</button>
 <script>
     var header=document.getElementById("one")
     console.log(header.textContent)
+
+function change()
+{
     header.textContent="Bye World"
+}
 </script>
