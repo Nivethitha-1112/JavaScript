@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(210, 255, 255);
+    font-family: "Playfair Display", serif;
+}
+h1 { 
+    text-align: center;
+    text-decoration: underline;
+}
+.container {
+    margin:auto;
+    text-align: center;
+    background-color:#00ffff;
+    width:50%;
+    box-shadow: 2px 2px 2px 2px #acabab;
+    padding: 30px;
+    border-radius: 8px;
+}
+       
+#list-container{
+    list-style: none;
+}
+.deletebutton, button{
+    background-color: #ffffff;
+    color:#000000;
+    font-family: inherit;
+    border: 1.5px #00f7ff;
+    padding:8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.deletebutton, button:hover,
+.deletebutton, button:active {
+    background-color: #ff8989;
+    color:#000000;
+}
