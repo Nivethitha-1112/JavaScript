@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>ToDo List</h1>
+    <div class="container">
+        <input id="input">
+        <button class ="button" onclick="add()">Add</button>
+        <ul id="list-container">
+            <li>Hello
+            <button onclick="deleteItem(event)">Delete</button>
+            </li>
+        </ul>
+    </div>
+        <script>
+            var ul = document.getElementById("list-container")
+            var input = document.getElementById("input")
+            function add()
+            {
+                var listitem = document.createElement("li")
+                listitem.innerHTML = input.value + "<button onclick='deleteItem(event)'>Delete</button>"
+                ul.append(listitem)
+            }
+            function deleteItem(event)
+            {
+                event.target.parentElement.remove()
+            }
+        </script>
+</body>
+</html>
