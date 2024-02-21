@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrochetByNivi</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="navbar">
+        <h3>CrochetByNivi</h3>
+    </div>
+    <div class="container">
+        <div class="sub-container">
+            <h2>Crafting Warmth & Elegance: Handcrafted Crochet Creations</h2>
+            <h4>Explore the Artistry of Crochet</h4>
+            <p>Unravel the beauty of handmade warmth with our intricately designed crochet pieces, each stitch telling a story of creativity and craftsmanship.</p>
+            <button onclick="deleteitem(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+        <div class="popup-box">
+            <h3>What kind of design are you looking to create?</h3>
+            <form>
+                <input type="text" placeholder="Crochet type" id="one">
+                <input type="text" placeholder="Crochet color" id="two">
+                <textarea placeholder="Short description" id="three"></textarea>
+                <button id="add-crochet">Add</button>
+                <button id="cancel-crochet">Cancel</button>
+            </form>
+        </div>
+    <button class="add-button" id="button1">+</button>
+    <script src ="project.js"></script>
+</body>
+</html>
