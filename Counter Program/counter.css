@@ -1,0 +1,39 @@
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+#class{
+    width:500px;
+    height: 250px;
+    margin: 6vh auto 0 auto;
+    background-color: rgb(255, 231, 231);
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid grey; 
+}
+#countlabel{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+#container{
+    text-align: center;
+}
+.buttons{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    border: 1px solid grey; 
+}
+.buttons:hover{
+    background-color: plum;
+}
