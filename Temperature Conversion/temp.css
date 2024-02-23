@@ -1,0 +1,50 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+    color: #4747ff;
+}
+form{
+    text-align:center;
+    background-color: #e6e6e6;
+    max-width: 350px;
+    margin:auto;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+#textbox{
+    font-size: 20px;
+    text-align: center;
+    border: 1px rgb(148, 148, 148);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+label{
+    font-weight: bold;
+    padding: 8px;
+    display: inline-block;
+}
+button{
+    padding: 10px;
+    margin-top: 10px;
+    font-family: inherit;
+    background-color: rgb(79, 120, 255);
+    border:none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #a5a5ff;
+    color:black;
+    font-weight: bold;
+}
+#result{
+    font-size: 18px;
+    color:rgb(76, 76, 241);
+}
